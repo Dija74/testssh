@@ -32,4 +32,4 @@ jobs:
     - name: Print SSH connection details
       run: |
         echo "Run the following command to connect via SSH:"
-        echo "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa -p 22 runner@$(curl -s ifconfig.me)"
+        echo "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa runner@$(curl -s ifconfig.me)"
